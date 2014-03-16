@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
+    "component/bind": "*",
     "component/reactive": "*",
     "yields/shortcuts": "*",
     "segmentio/modal": "*",

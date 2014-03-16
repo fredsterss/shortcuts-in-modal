@@ -3,20 +3,14 @@
   <title></title>
   <script src='../build/build.js'></script>
   <link href='../build/build.css' rel='stylesheet'>
-  <style>
-    body {
-      background-color: red;
-    }
-  </style>
 </head>
 <body>
 
 <script>
   var ShortcutsModal = require('shortcuts-in-modal');
-  var sM = new ShortcutsModal();
-  sM.show();
-  sM.model.people.push({name: 'Sally', keycombo: 'hai'});
-  sM.model.people.push({name: 'Billy', keycombo: 'herro'});
+  var sM = window.sM = new ShortcutsModal("a");
+
+  // sM.show();
 </script>
 
 </body>
